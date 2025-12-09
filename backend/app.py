@@ -89,6 +89,23 @@ class AddOnLog(db.Model):
     request = db.relationship('AddOnRequest', backref=db.backref('logs', lazy=True))
     user = db.relationship('User', backref=db.backref('addon_logs', lazy=True))
 
+# Root route
+@app.route('/')
+def root():
+    return jsonify({
+        'message': 'Ward & Lab Management System API',
+        'status': 'running',
+        'version': '1.0.0',
+        'endpoints': {
+            'auth': '/api/auth/login',
+            'wards': '/api/wards',
+            'rooms': '/api/rooms',
+            'addon_requests': '/api/addon-requests',
+            'critical_call': '/api/critical-call/search',
+            'analytics': '/api/analytics/addon-stats'
+        }
+    }), 200
+
 # Auth Routes
 @app.route('/api/auth/register', methods=['POST'])
 def register():
