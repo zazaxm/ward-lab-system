@@ -1,0 +1,77 @@
+================================================================================
+المسارات الكاملة للملفات التي سترفعها على GitHub
+================================================================================
+
+📍 المجلد الرئيسي: C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\
+================================================================================
+
+✅ BACKEND (2 ملفات):
+================================================================================
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\backend\app.py
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\backend\requirements.txt
+
+✅ FRONTEND (18 ملف):
+================================================================================
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\index.html
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\package.json
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\vite.config.js
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\tailwind.config.js
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\postcss.config.js
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\main.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\App.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\index.css
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\components\Layout.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\contexts\AuthContext.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\pages\Login.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\pages\Dashboard.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\pages\WardDirectory.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\pages\AddOnRequest.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\pages\CriticalCall.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\pages\LabDashboard.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\pages\Analytics.jsx
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\frontend\src\services\api.js
+
+✅ DOCUMENTATION (2 ملفات):
+================================================================================
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\README.md
+C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\.gitignore
+
+================================================================================
+📋 المسارات النسبية (من داخل مجلد ward-lab-system):
+================================================================================
+
+backend/app.py
+backend/requirements.txt
+frontend/index.html
+frontend/package.json
+frontend/vite.config.js
+frontend/tailwind.config.js
+frontend/postcss.config.js
+frontend/src/main.jsx
+frontend/src/App.jsx
+frontend/src/index.css
+frontend/src/components/Layout.jsx
+frontend/src/contexts/AuthContext.jsx
+frontend/src/pages/Login.jsx
+frontend/src/pages/Dashboard.jsx
+frontend/src/pages/WardDirectory.jsx
+frontend/src/pages/AddOnRequest.jsx
+frontend/src/pages/CriticalCall.jsx
+frontend/src/pages/LabDashboard.jsx
+frontend/src/pages/Analytics.jsx
+frontend/src/services/api.js
+README.md
+.gitignore
+
+================================================================================
+🎯 الطريقة الأسهل:
+================================================================================
+
+ارفع مجلدين كاملين:
+1. backend/ (المجلد كامل)
+2. frontend/ (المجلد كامل)
+
+سيتم رفع جميع الملفات تلقائياً!
+
+================================================================================
+

@@ -1,0 +1,103 @@
+================================================================================
+WARD & LAB MANAGEMENT SYSTEM - FILES TO UPLOAD
+================================================================================
+
+📦 BACKEND FILES (Python/Flask)
+================================================================================
+✅ REQUIRED FILES:
+
+ward-lab-system/backend/
+├── app.py                    ← Main Flask application
+└── requirements.txt          ← Python dependencies
+
+⚠️  CREATE ON SERVER (Don't upload):
+└── .env                      ← Environment variables (create manually)
+
+================================================================================
+📦 FRONTEND FILES (React/Vite)
+================================================================================
+✅ REQUIRED FILES:
+
+ward-lab-system/frontend/
+├── index.html                ← HTML entry point
+├── package.json              ← Node.js dependencies
+├── vite.config.js            ← Vite build configuration
+├── tailwind.config.js        ← Tailwind CSS configuration
+├── postcss.config.js         ← PostCSS configuration
+└── src/                      ← Source code directory
+    ├── main.jsx              ← React entry point
+    ├── App.jsx                ← Main app component
+    ├── index.css              ← Global styles
+    ├── components/
+    │   └── Layout.jsx         ← Layout component
+    ├── contexts/
+    │   └── AuthContext.jsx    ← Authentication context
+    ├── pages/
+    │   ├── Login.jsx          ← Login page
+    │   ├── Dashboard.jsx      ← Dashboard page
+    │   ├── WardDirectory.jsx  ← Ward directory page
+    │   ├── AddOnRequest.jsx   ← Add-on request page
+    │   ├── CriticalCall.jsx   ← Critical call helper
+    │   ├── LabDashboard.jsx   ← Lab dashboard
+    │   └── Analytics.jsx      ← Analytics page
+    └── services/
+        └── api.js             ← API service
+
+================================================================================
+📋 QUICK CHECKLIST
+================================================================================
+
+BACKEND:
+[ ] backend/app.py
+[ ] backend/requirements.txt
+
+FRONTEND:
+[ ] frontend/index.html
+[ ] frontend/package.json
+[ ] frontend/vite.config.js
+[ ] frontend/tailwind.config.js
+[ ] frontend/postcss.config.js
+[ ] frontend/src/ (entire folder with all contents)
+
+OPTIONAL:
+[ ] README.md
+[ ] .gitignore
+[ ] vercel.json (if using Vercel)
+
+================================================================================
+❌ DO NOT UPLOAD:
+================================================================================
+- backend/.env (create on server)
+- backend/venv/ (virtual environment)
+- backend/ward_lab.db (database - auto created)
+- frontend/node_modules/ (install via npm)
+- Any .git/ folders
+- Any cache or temporary files
+
+================================================================================
+🔧 AFTER UPLOAD - SETUP STEPS:
+================================================================================
+
+BACKEND:
+1. pip install -r requirements.txt
+2. Create .env file with:
+   DATABASE_URL=sqlite:///ward_lab.db
+   JWT_SECRET_KEY=your-secret-key
+   FLASK_ENV=production
+3. python app.py
+
+FRONTEND:
+1. npm install
+2. Update api.js baseURL to your backend URL
+3. npm run build (for production)
+4. Deploy dist/ folder
+
+================================================================================
+📝 TOTAL FILES TO UPLOAD: ~20 files
+================================================================================
+
+Backend: 2 files
+Frontend: 15+ files (including all src/ subdirectories)
+
+================================================================================
+

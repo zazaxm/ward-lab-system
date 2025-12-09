@@ -1,0 +1,87 @@
+================================================================================
+COMPLETE FILE LIST - WARD & LAB MANAGEMENT SYSTEM
+================================================================================
+
+📁 LOCATION: C:\Users\Abdulaziz\.cursor-tutor\ward-lab-system\
+================================================================================
+
+✅ BACKEND FILES (2 files):
+================================================================================
+ward-lab-system\backend\app.py
+ward-lab-system\backend\requirements.txt
+
+✅ FRONTEND FILES (15+ files):
+================================================================================
+ward-lab-system\frontend\index.html
+ward-lab-system\frontend\package.json
+ward-lab-system\frontend\vite.config.js
+ward-lab-system\frontend\tailwind.config.js
+ward-lab-system\frontend\postcss.config.js
+
+ward-lab-system\frontend\src\main.jsx
+ward-lab-system\frontend\src\App.jsx
+ward-lab-system\frontend\src\index.css
+
+ward-lab-system\frontend\src\components\Layout.jsx
+
+ward-lab-system\frontend\src\contexts\AuthContext.jsx
+
+ward-lab-system\frontend\src\pages\Login.jsx
+ward-lab-system\frontend\src\pages\Dashboard.jsx
+ward-lab-system\frontend\src\pages\WardDirectory.jsx
+ward-lab-system\frontend\src\pages\AddOnRequest.jsx
+ward-lab-system\frontend\src\pages\CriticalCall.jsx
+ward-lab-system\frontend\src\pages\LabDashboard.jsx
+ward-lab-system\frontend\src\pages\Analytics.jsx
+
+ward-lab-system\frontend\src\services\api.js
+
+✅ DOCUMENTATION (Optional):
+================================================================================
+ward-lab-system\README.md
+ward-lab-system\DEPLOYMENT.md
+ward-lab-system\FILES_TO_UPLOAD.txt
+ward-lab-system\UPLOAD_LIST.txt (this file)
+ward-lab-system\.gitignore
+
+================================================================================
+📋 QUICK COPY LIST (All files in order):
+================================================================================
+
+Backend:
+1. backend/app.py
+2. backend/requirements.txt
+
+Frontend:
+3. frontend/index.html
+4. frontend/package.json
+5. frontend/vite.config.js
+6. frontend/tailwind.config.js
+7. frontend/postcss.config.js
+8. frontend/src/main.jsx
+9. frontend/src/App.jsx
+10. frontend/src/index.css
+11. frontend/src/components/Layout.jsx
+12. frontend/src/contexts/AuthContext.jsx
+13. frontend/src/pages/Login.jsx
+14. frontend/src/pages/Dashboard.jsx
+15. frontend/src/pages/WardDirectory.jsx
+16. frontend/src/pages/AddOnRequest.jsx
+17. frontend/src/pages/CriticalCall.jsx
+18. frontend/src/pages/LabDashboard.jsx
+19. frontend/src/pages/Analytics.jsx
+20. frontend/src/services/api.js
+
+================================================================================
+🎯 EASIEST WAY TO UPLOAD:
+================================================================================
+
+Option 1: Upload entire folders
+- Upload: ward-lab-system/backend/ (folder)
+- Upload: ward-lab-system/frontend/ (folder)
+
+Option 2: Upload individual files
+- Follow the list above (20 files total)
+
+================================================================================
+
