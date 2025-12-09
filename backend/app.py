@@ -171,6 +171,39 @@ def get_current_user():
         'name': user.name
     }), 200
 
+# Route to create admin user manually (for troubleshooting)
+@app.route('/api/auth/create-admin', methods=['POST'])
+def create_admin_manual():
+    try:
+        with app.app_context():
+            # Check if admin already exists
+            admin = User.query.filter_by(username='admin').first()
+            if admin:
+                return jsonify({
+                    'message': 'Admin user already exists',
+                    'username': 'admin',
+                    'password': 'admin123'
+                }), 200
+            
+            # Create admin user
+            admin = User(
+                username='admin',
+                email='admin@hospital.com',
+                password_hash=generate_password_hash('admin123'),
+                role='admin',
+                name='System Administrator'
+            )
+            db.session.add(admin)
+            db.session.commit()
+            
+            return jsonify({
+                'message': 'Admin user created successfully',
+                'username': 'admin',
+                'password': 'admin123'
+            }), 201
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 # Ward Directory Routes
 @app.route('/api/wards', methods=['GET'])
 @jwt_required()
