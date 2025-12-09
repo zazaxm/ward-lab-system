@@ -561,7 +561,8 @@ def get_addon_trends():
         'period_days': days
     }), 200
 
-if __name__ == '__main__':
+# Initialize database and create admin user
+def init_db():
     with app.app_context():
         db.create_all()
         
@@ -576,6 +577,11 @@ if __name__ == '__main__':
             )
             db.session.add(admin)
             db.session.commit()
-    
+            print("✅ Admin user created: admin / admin123")
+
+# Initialize on startup
+init_db()
+
+if __name__ == '__main__':
     app.run(debug=True, port=5000)
 
